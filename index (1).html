@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boeing 747</title>
+    <style>
+        body {
+            background-color: #cbe972; 
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #4f6d7a; 
+            font-size: 80px;
+            animation: fadeIn 1s;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            margin: 15px;
+            border-radius: 15px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+            transition: transform 0.3s; 
+        }
+
+        img:hover {
+            transform: scale(1.05); 
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            animation: fadeIn 1s 0.5s; 
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4f6d7a; 
+            color: white;
+            animation: fadeIn 1s 0.5s; 
+        }
+
+        tr:hover {
+            background-color: #e7f6f2; 
+        }
+
+       
+        .button {
+            display: inline-block;
+            padding: 20px 40px; 
+            margin: 20px;
+            background-color: #ff6f61; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 10px; 
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 20px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+        }
+
+        .button:hover {
+            background-color: #ff4b3a; 
+            transform: scale(1.05); 
+        }
+
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bratislava-Ivanka</h1>
+
+        <div class="image-gallery">
+
+            <img src="https://i.imgur.com/KbU0pit.jpeg" alt="bratislava-ivanka" title="Bratislava-Ivanka">
+        </div>
+
+
+        
+        <div>
+            <a href="zaujimave_fakty.html" class="button">Zaujímavé fakty</a>
+            <a href="moje_algoritmy.html" class="button">Moje algoritmy</a>
+            <a href="text-boeing747.html" class="button">Text boeing747</a>
+            <a href="rezume.html.html" class="button">Rezume</a>
+        </div>
+    </div>
+</body>
+
+</html>
+
